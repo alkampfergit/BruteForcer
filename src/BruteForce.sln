@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForce.Tests", "BruteFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForce.SampleTestWebapp", "BruteForce.SampleTestWebapp\BruteForce.SampleTestWebapp.csproj", "{D8F75B7D-7470-407C-8739-C88472EEFAE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForceConsole", "BruteForceConsole\BruteForceConsole.csproj", "{B7E5A2D9-D1C6-46B8-94E4-886B7C0D22B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E5A2D9-D1C6-46B8-94E4-886B7C0D22B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E5A2D9-D1C6-46B8-94E4-886B7C0D22B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E5A2D9-D1C6-46B8-94E4-886B7C0D22B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E5A2D9-D1C6-46B8-94E4-886B7C0D22B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

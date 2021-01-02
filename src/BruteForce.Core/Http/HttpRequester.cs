@@ -9,7 +9,7 @@ namespace BruteForce.Core.Http
     /// Performs a request for brute forcing, it usually has a payload
     /// or a url and should replace TOKENS expressed with ${TOKEN}.
     /// </summary>
-    public class HttpRequester
+    public class HttpRequester : IRequester
     {
         private readonly IHttpRequestEngine _engine;
         private readonly string _url;
@@ -38,7 +38,7 @@ namespace BruteForce.Core.Http
             }
         }
 
-        public Task<GenericResponse> RunAsync(Dictionary<string, string> tokens)
+        public Task<GenericResponse> RunAsync(IDictionary<string, string> tokens)
         {
             string url = _url;
             foreach (var token in tokens)
