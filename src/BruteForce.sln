@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForce.Core", "BruteForce.Core\BruteForce.Core.csproj", "{1B17494C-8AF0-4F4D-9EAE-AD78F8771193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForce.Tests", "BruteForce.Tests\BruteForce.Tests.csproj", "{33A12164-255A-4B64-8C49-4A329D794E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteForce.SampleTestWebapp", "BruteForce.SampleTestWebapp\BruteForce.SampleTestWebapp.csproj", "{D8F75B7D-7470-407C-8739-C88472EEFAE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B17494C-8AF0-4F4D-9EAE-AD78F8771193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B17494C-8AF0-4F4D-9EAE-AD78F8771193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B17494C-8AF0-4F4D-9EAE-AD78F8771193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B17494C-8AF0-4F4D-9EAE-AD78F8771193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A12164-255A-4B64-8C49-4A329D794E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A12164-255A-4B64-8C49-4A329D794E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A12164-255A-4B64-8C49-4A329D794E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A12164-255A-4B64-8C49-4A329D794E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F75B7D-7470-407C-8739-C88472EEFAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
